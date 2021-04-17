@@ -10,4 +10,32 @@ snapshots:
     sha256: d7d8d5106e53d1669964bd8bd2b0f88a5ad192d772f5376384b76738fd992311
     url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/lts/17/9.yaml
     size: 567037
-packages: []
+packages:
+- original:
+    hackage: modular-arithmetic-2.0.0.1@sha256:afc4fc1f503cf0e21eee9eec1b433d010603aadccf9d6590287a175bdc8cfb1b,1606
+  completed:
+    pantry-tree:
+      sha256: d6ed2dcf3d49c4cd8f72b6e965dec2e47ab1361ad9795ecc952de941396a0f0f
+      size: 383
+    hackage: modular-arithmetic-2.0.0.1@sha256:afc4fc1f503cf0e21eee9eec1b433d010603aadccf9d6590287a175bdc8cfb1b,1606
+- original:
+    hackage: typelits-witnesses-0.4.0.0@sha256:1d7092ba98fdc33f4b413e04144eb3ead7b105f74b2998e3c74a8a0feee685a9,1985
+  completed:
+    pantry-tree:
+      sha256: 2ee741f6bb4dba710e6449da335fdcf8940adb767798b29fdb8ae2606d22e0cb
+      size: 403
+    hackage: typelits-witnesses-0.4.0.0@sha256:1d7092ba98fdc33f4b413e04144eb3ead7b105f74b2998e3c74a8a0feee685a9,1985
+- original:
+    hackage: dependent-sum-0.7.1.0@sha256:0e419237f5b86da3659772afff9cab355c0f8d5b3fdb15a5b30e673d8dc83941,2147
+  completed:
+    pantry-tree:
+      sha256: 009601e5d33e835c7a384e240c5c6ad12643bce9c54b2a0b07201daee3380e51
+      size: 290
+    hackage: dependent-sum-0.7.1.0@sha256:0e419237f5b86da3659772afff9cab355c0f8d5b3fdb15a5b30e673d8dc83941,2147
+- original:
+    hackage: constraints-extras-0.3.1.0@sha256:12016ebb91ad5ed2c82bf7e48c6bd6947d164d33c9dca5ac3965de1bb6c780c0,1777
+  completed:
+    pantry-tree:
+      sha256: 5fe01617233b7f66ba0e2aef95b218a19225a22e4193a8ed93999a3b7c43a4f3
+      size: 595
+    hackage: constraints-extras-0.3.1.0@sha256:12016ebb91ad5ed2c82bf7e48c6bd6947d164d33c9dca5ac3965de1bb6c780c0,1777

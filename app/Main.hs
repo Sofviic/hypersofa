@@ -15,12 +15,16 @@ winPos = (0,0)
 fps :: Int
 fps = 30
 
+backgroundColour :: Color
+backgroundColour = makeColor 1.0 0.0 1.0 1.0
+
 {- Main -}
 main :: IO ()
 main = play
-    InWindow "Hypersofa but Haskell is stupid" winSize winPos
+    (InWindow "Hypersofa but Haskell is stupid" winSize winPos)
+    backgroundColour
     fps
     startGame
     renderGame
     inputHandle
-    animateGame
+    tick

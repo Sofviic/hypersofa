@@ -23,9 +23,15 @@ dependencies:
 - base >= 4.7 && < 5
 - gloss >= 1.13.1.2
 - containers >= 0
+- modular-arithmetic >= 0
+- MemoTrie >= 0
 
 library:
   source-dirs: src
+  default-extensions:
+  - DataKinds
+  - TypeOperators
+  - TypeApplications
 
 executables:
   hypersofa-exe:
@@ -37,6 +43,10 @@ executables:
     - -with-rtsopts=-N
     dependencies:
     - hypersofa
+    default-extensions:
+    - DataKinds
+    - TypeOperators
+    - TypeApplications
 
 tests:
   hypersofa-test:
@@ -48,3 +58,7 @@ tests:
     - -with-rtsopts=-N
     dependencies:
     - hypersofa
+    default-extensions:
+    - DataKinds
+    - TypeOperators
+    - TypeApplications

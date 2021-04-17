@@ -41,6 +41,12 @@ packages:
 #   commit: e7b331f14bcffb8367cd58fbfc8b40ec7642100a
 #
 # extra-deps: []
+extra-deps:
+- modular-arithmetic-2.0.0.1@sha256:afc4fc1f503cf0e21eee9eec1b433d010603aadccf9d6590287a175bdc8cfb1b,1606
+- typelits-witnesses-0.4.0.0@sha256:1d7092ba98fdc33f4b413e04144eb3ead7b105f74b2998e3c74a8a0feee685a9,1985
+- dependent-sum-0.7.1.0@sha256:0e419237f5b86da3659772afff9cab355c0f8d5b3fdb15a5b30e673d8dc83941,2147
+- constraints-extras-0.3.1.0@sha256:12016ebb91ad5ed2c82bf7e48c6bd6947d164d33c9dca5ac3965de1bb6c780c0,1777
+
 
 # Override default flag values for local packages and extra-deps
 # flags: {}
