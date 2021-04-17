@@ -47,6 +47,7 @@ executable hypersofa-exe
   other-modules:
       Game
       Graphics
+      HyperCoord
       Input
       Modulus
       Paths_hypersofa
