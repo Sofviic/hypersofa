@@ -1,8 +1,10 @@
+{-# LANGUAGE DataKinds #-}
+{-# LANGUAGE TypeOperators #-}
+{-# LANGUAGE DeriveAnyClass #-}
 module HyperCoord where
 
-
+import Data.Modular
 import Game
-
 
 instance Num HyperCoord where
     (HyperCoord a) + (HyperCoord b) = HyperCoord (a ++ b)

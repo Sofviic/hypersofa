@@ -14,12 +14,6 @@ newtype Coord a = Coord (a, a)
 data HyperCoord = HyperCoord [ℤ/8] deriving (HasTrie, Eq)
 newtype HyperCoordFloat = HyperCoordFloat (HyperCoord, Coord Float)
 
--- instance Foldable HyperCoord where
---     foldr _ acc (HyperCoord [])     = acc
---     foldr f acc (HyperCoord (x:xs)) = foldr f (f x acc) (HyperCoord xs)
---     foldMap f (HyperCoord []) = mempty
---     foldMap f (HyperCoord (x:xs)) = f x <> foldMap f (HyperCoord xs)
-
 data Camera = Camera {
     camPosition :: HyperCoordFloat,
     camZoom :: Double
@@ -37,7 +31,7 @@ data Game = Game {
 startGame :: Game
 startGame = Game {
     gameWorld = World {
-        worldTiles = trie $ const Empty
+        worldTiles = trie $ const TEmpty
     }
 }
 

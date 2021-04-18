@@ -11,6 +11,3 @@ renderGame game = Blank
 
 tick :: Float -> Game -> Game
 tick t g = g
-
-
-drawTile
